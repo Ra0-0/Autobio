@@ -1,0 +1,200 @@
+body {
+	margin: 0px;
+}
+
+.every-case{
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 101vh;
+}
+
+.every-case .navbar-case {
+	background: white;
+	padding: 36px 144px;
+	font-family: helveticaneuecyr_medium;
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.every-case .navbar-case .plugin-name-case {
+	display: flex;
+	flex-grow: 1;
+}
+
+.every-case .navbar-case .plugin-name-case__a-plugin-name {
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	margin-left: 12px;
+}
+
+.every-case .navbar-case .a-nav-case__a-nav {
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+
+.every-case .navbar-case .a-nav-case .a-nav-case__a-nav:nth-child(n+2) {
+	margin-left: 24px;
+}
+
+.every-case .pages-case {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.every-case .pages-case .center-pages-case .header-case {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	z-index: 100;
+	position: relative;
+}
+
+.every-case .pages-case .center-pages-case .header-case__p-header {
+	font-family: helveticaneuecyr_black;
+	margin: 0px;
+	font-size: 144px;
+	text-align: center;
+}
+
+.every-case .pages-case .center-pages-case .button-case {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.every-case .pages-case .center-pages-case .button-case__button {
+	border: 0px;
+	box-shadow: 0px;
+	background: #EDEDED;
+	padding: 6px 10px;
+	border-radius: 6px;
+}
+
+.every-case .pages-case .center-pages-case .button-case__button_attract {
+	background: linear-gradient(135deg, #00FFC2, #00D1FF);
+	margin-right: 12px;
+	box-shadow: 0px 4px 12px rgba(0, 255, 194, 0.4);
+}
+
+.every-case .pages-case .center-pages-case .main-text-case {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 72px;
+}
+
+.every-case .pages-case .center-pages-case .main-text-case__main-text {
+	font-size: 24px;
+	font-family: helveticaneuecyr_medium;
+	width: 659px;
+	text-align: center;
+}
+
+.every-case .pages-case .center-pages-case .plugin-users-case {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.every-case .pages-case .center-pages-case .plugin-users-case .plugin-user-case {
+	margin-top: 72px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.every-case .pages-case .center-pages-case .plugin-users-case .plugin-user-case__img-user {
+	margin-bottom: 24px;
+	width: 80px;
+	height: 96px;
+}
+
+.every-case .pages-case .center-pages-case .plugin-users-case .plugin-user-case__user-name {
+	width: 152px;
+	font-family: helveticaneuecyr_medium;
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.every-case .pages-case .center-pages-case .plugin-users-case .plugin-user-case:nth-child(n + 2) {
+	margin-left: 72px;
+}
+
+.every-case .pages-case .center-pages-case .release-time-case {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 72px;
+}
+
+.every-case .pages-case .center-pages-case .release-time-case__release-time {
+	font-family: helveticaneuecyr_black;
+	margin: 0;
+	font-size: 72px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.every-case .svg-attraction-case {
+	position: fixed;
+	top: 50%;
+	width: 100%;
+}
+
+.every-case .svg-attraction-case__svg-attraction_orange-red {
+	position: fixed;
+	z-index: -1;
+	transform: translate(0px, 100%);
+	left: 30%;
+	transform-origin: center;
+}
+
+.every-case .svg-attraction-case__svg-attraction_blue-green {
+	position: fixed;
+	z-index: 2;
+	transform: translate(0, -100%);
+	right: 30%;
+	transform-origin: center;
+}
+
+@media (max-width: 1024px) {
+	.a-nav-case {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.a-nav-case .a-nav-case__a-nav:nth-child(n+2) {
+		margin-left: 0px !important;
+		margin-top: 6px;
+	}
+
+	.a-nav-case__a-nav {
+		font-size: 24px;
+	}
+
+	.button-case__button {
+		font-size: 24px;
+	}
+}
+
+@font-face {
+	font-family: helveticaneuecyr_black;
+  src: url('fonts/HelveticaNeueCyr-Black.woff');
+}
+
+@font-face {
+	font-family: helveticaneuecyr_medium;
+  src: url('fonts/helveticaneuecyr-medium.woff2');
+}
